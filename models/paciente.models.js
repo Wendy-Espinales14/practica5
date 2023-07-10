@@ -7,6 +7,8 @@ const PacienteSchema = new Schema({
   identificacion: String, 
 });
 
+
+
 const PacienteModel = mongoose.model('Paciente', PacienteSchema);
 
 module.exports = PacienteModel;
