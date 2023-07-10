@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 
+
 const Paciente = require('./models/paciente.models');
 
 
